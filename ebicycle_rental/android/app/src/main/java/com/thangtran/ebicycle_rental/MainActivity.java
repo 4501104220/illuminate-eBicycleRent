@@ -36,7 +36,8 @@ public class MainActivity extends FlutterActivity {
                         JSONObject transaction = new JSONObject();
                         transaction.put("command", methodCall.argument("command"));
                         transaction.put("cardCode", methodCall.argument("codeCard"));
-                        transaction.put("owner", methodCall.argument("owner"));
+                        tr
+                    ansaction.put("owner", methodCall.argument("owner"));
                         transaction.put("cvvCode", methodCall.argument("cvvCode"));
                         transaction.put("dateExpired", methodCall.argument("dateExpired"));
                         transaction.put("transactionContent", methodCall.argument("transactionContent"));
