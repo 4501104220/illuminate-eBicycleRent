@@ -17,7 +17,7 @@ void main() async{
 /// Lớp chứa widget gốc của app của bạn
 /// @return: trả về 1 widget gốc và chạy vào màn hình splash screen
 class MyApp extends StatelessWidget {
-  // Đây là widget gốc của app của bạn.
+  // Đây là widget gốc của app
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
