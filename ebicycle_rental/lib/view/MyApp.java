@@ -34,10 +34,12 @@ class MyApp extends StatelessWidget {
               statusBarColor: Colors.transparent, // transparent status bar
               systemNavigationBarColor: Colors.black, // navigation bar color
               statusBarIconBrightness:
-              Brightness.dark, // status bar icons' color
+                  Brightness.dark, // status bar icons' color
               systemNavigationBarIconBrightness:
-              Brightness.dark, //navigation bar icons' color
+                  Brightness.dark, //navigation bar icons' color
             ),
             child: SplashScreen()));
   }
 }
+
+
